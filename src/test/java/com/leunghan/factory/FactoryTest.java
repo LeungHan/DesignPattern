@@ -3,7 +3,7 @@ package com.leunghan.factory;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class OperationTest {
+public class FactoryTest {
     @Test
     public void OperationAddTest(){
         OperationFactory factory = new OperationFactory();

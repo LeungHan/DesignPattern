@@ -1,11 +1,9 @@
 package com.leunghan.strategy;
 
-import com.leunghan.factory.Operation;
-import com.leunghan.factory.OperationFactory;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CashTest {
+public class StrategyTest {
     @Test
     public void CashNormalTest(){
         CashSuper cashNormal = new CashNormal();
